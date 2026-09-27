@@ -1,0 +1,15 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pdf2docx>=0.5.8
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+openpyxl>=3.1.0
+PyMuPDF>=1.24.0
+img2pdf>=0.5.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+python-docx>=1.0.0
+reportlab>=4.0.0
+python-dotenv>=1.0.0
+aiofiles>=24.1.0

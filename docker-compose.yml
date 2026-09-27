@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MAX_FILE_SIZE_MB=50
+      - TEMP_FILE_RETENTION_MINUTES=30
+    volumes:
+      - ./backend:/app
