@@ -1,4 +1,4 @@
-const API_BASE = '';
+const API_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 
 export async function uploadAndConvert(
   endpoint: string,
